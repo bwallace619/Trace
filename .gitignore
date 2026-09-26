@@ -1,0 +1,35 @@
+# Build output
+bin/
+obj/
+publish/
+*.nupkg
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Test results / profiling
+TestResults/
+*.trx
+*.coverage
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local SQLite files (Trace stores its DB in %LocalAppData%, not the repo)
+*.db
+*.db-wal
+*.db-shm
